@@ -1,0 +1,40 @@
+{
+  "name": "haha_shop",
+  "version": "0.1.0",
+  "private": true,
+  "author": "mengshuang.wu@hotmail.com",
+  "description": "haha超市管理系统",
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "core-js": "^3.6.5",
+    "crypto-js": "^4.1.1",
+    "element-ui": "^2.15.6",
+    "less": "^4.1.2",
+    "less-loader": "^7.3.0",
+    "react-loadable": "^5.5.0",
+    "react-router-dom": "5",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.3",
+    "vuex": "^3.6.2",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

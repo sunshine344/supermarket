@@ -1,0 +1,102 @@
+@import "../../style/common.less";
+.home-container{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 90;
+    > aside{
+        flex: 0 0 260px;
+        background: @bg;
+        .icon-home {
+            background: url('../../images/home.png') center center / 20px 20px no-repeat;
+            
+        }
+        .icon-goods {
+            background: url('../../images/goods.png') center center / 20px 20px no-repeat;
+            
+        }
+        .icon-purchase {
+            background: url('../../images/purchase.png') center center / 20px 20px no-repeat;
+            
+        }
+        .icon-user {
+            background: url('../../images/user.png') center center / 20px 20px no-repeat;
+            
+        }
+        .el-submenu [class^=el-icon-] {
+            color: transparent;
+        }
+        .home-logo {
+            height: 42px;
+            line-height: 62px;
+            width: 100%;
+            border-bottom: 1px solid #f8f8f8;
+            background: url('../../images/haha.png') 15px center / 32px 32px no-repeat;
+            > span {
+                font-size: 20px;
+                color: #fff;
+                margin-left: 30px;
+                
+            }
+        }
+    }
+    > article{
+        flex: 1;
+        > header{
+            display: block;
+            height: 48px;
+            background: #fff;
+        }
+        > section{
+            height: calc(100% - 48px);
+            background: #f8f8f8;
+            padding: 12px;
+            .el-select,
+            .el-date-editor.el-input, .el-date-editor.el-input__inner{
+                width: 100%;
+            }
+            
+            .box {
+                display: block;
+                height: 100%;
+                padding: 12px;
+                background-color: #fff;
+                overflow-x: hidden;
+
+            }
+
+            
+        }
+    }
+}
+
+.list-box {
+    .search {
+        display: block;
+        padding: 8px 12px;
+        height: 50px;
+        border-bottom: 1px solid #ddd;
+        text-align: right;
+        .el-input {
+            width: 220px;
+            margin-right: 12px;
+        }
+    }
+    > article {
+        padding: 10px 12px;
+        height: calc(100% - 50px - 42px);
+        
+    }
+    > footer {
+        height: 39px;
+        padding: 8px 12px;
+        border-top: 1px solid #ddd;
+        .el-pagination {
+            text-align: center;
+        }
+
+    }
+}
